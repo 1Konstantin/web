@@ -1,0 +1,29 @@
+Блочный тег 
+<form action="#"></form>
+method="get" - видны любому пользователю(для передачи малого количества данных)
+method="post" - для передачи данных при использовании атрибута ectype="multipart/form-data"
+
+Прием данных от пользователя
+Строчные теги
+<input type="text" /> 
+атрибут tel - переключит раскладку телефона на цифровую
+<input type="password" name="userpass" value=""/> - для пароля 
+<input type="radio" name="" value="" id=""> - радио кнопки выбор либо того либо другого
+
+checked - атрибут для выбора по умолчанию
+
+<p><input type="file" name="" id=""></p> - выбор файла для загрузки на сайт
+
+name - не должен повторятся 
+исключение radio 
+
+<textarea name="" id="" cols="30" rows="10"></textarea>
+Ввод большого текста 
+
+<select name="" id="">
+          <option value=""></option>
+</select> - 
+
+
+
+

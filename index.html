@@ -1,0 +1,77 @@
+<!--Сообщаем браузеру как стоит обрабатывать эту страницу-->
+<!DOCTYPE html>
+<!--Оболочка документа, указываем язык содержимого-->
+<html lang="ru">
+<!--Заголовок страницы, контейнер для других важных данных (не отображается)-->
+
+<head>
+	<meta charset="UTF-8">
+	<!--Кодировка страницы-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Заголовок страницы в браузере-->
+	<title>Знакомство с HTML тегами Часть №3(Формы)</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div>
+		<p>Имя</p>
+		<input tabindex="1" placeholder="Имя" type="text" name="username" id="">
+	</div>
+	<div>
+		<p>Пароль</p>
+		<input tabindex="2" type="password" name="userpassword" id="">
+	</div>
+	<div>
+		<p>Телефон</p>
+		<input tabindex="3" type="number" name="phone" id="" value="+7">
+	</div>
+	<div>
+		<p>Пол</p>
+		<div>
+			<input checked tabindex="4" type="radio" name="gender" id="">Мужской
+		</div>
+		<div>
+			<input tabindex="4" type="radio" name="gender" id="">Женский
+		</div>
+	</div>
+	<div>
+
+		<div>
+			<div>
+				<p>Имущество</p>
+				<input tabindex="5" checked type="checkbox" name="" id="">Велик
+			</div>
+			<div>
+
+				<input tabindex="6" type="checkbox" name="" id="">Машина
+			</div>
+			<div>
+				<input tabindex="7" disabled type="checkbox" name="" id="">Дом
+			</div>
+		</div>
+		
+			<div>
+				<p>Дополнительная информация</p>
+				<textarea tabindex="8" name="" id=""></textarea>
+			</div>
+			<div>
+				<p>Прикрепить фото</p>
+				<input tabindex="9" type="file" name="foto" id="">
+			</div>
+			<div>
+				<p>Любимый цвет</p>
+				<div>
+					<select tabindex="10" name="color" id="">
+						<option value="red"></option>
+						<option value="blue"></option>
+						<option value="yellow"></option>
+					</select>
+				</div>
+
+			</div>
+
+</body>
+
+</html>
